@@ -136,7 +136,8 @@ namespace Test
             reader.Close();
             dataStream.Close();
             response.Close();
-
+//comments
+//startingindex
             int startIndex = responseFromServer.IndexOf("records");
             startIndex = startIndex + 9;
             int NoOfchars = responseFromServer.Length - (startIndex);
